@@ -1,0 +1,28 @@
+export default {
+    icons: [ 
+        { icon: 'account', color: 'DarkSlateGray' }, 
+        { icon: 'alien', color: 'Chartreuse' },
+        { icon: 'ambulance', color: 'FireBrick' },
+        { icon: 'basketball', color: 'DarkOrange' },
+        { icon: 'cactus', color: 'DarkGreen' },
+        { icon: 'camera', color: 'DarkViolet' },
+        { icon: 'car', color: 'DarkSlateBlue' },
+        { icon: 'heart', color: 'DarkRed' },
+        { icon: 'cat', color: 'DarkGoldenRod' },
+        { icon: 'dog', color: 'Chocolate' },
+        { icon: 'earth', color: 'DarkBlue' },
+        { icon: 'hamburger', color: 'BurlyWood' },
+        { icon: 'helicopter', color: 'DimGrey' },
+        { icon: 'koala', color: 'DarkGrey' },
+        { icon: 'ladybug', color: 'Crimson' },
+        { icon: 'microphone', color: 'CornflowerBlue' },
+        { icon: 'moon-waning-crescent', color: 'Gold' },
+        { icon: 'muffin', color: 'Khaki' },
+        { icon: 'ninja', color: '' },
+        { icon: 'one-up', color: 'MediumSeaGreen' },
+        { icon: 'panda', color: '' },
+        { icon: 'paw', color: '' },
+        { icon: 'pretzel', color: '' },
+        { icon: 'robot', color: '' },
+    ]
+}
