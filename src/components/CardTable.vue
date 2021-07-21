@@ -5,6 +5,7 @@
                 <card class="mycard" :image="getIcon(card)" :flipped="card.flipped" :color="getColorStyle(card)"></card>
             </b-col>
         </b-row>
+        You have discovered {{ discoveredPairs }} pairs
     </b-container>
 </template>
 
@@ -23,6 +24,7 @@
                 cards: [],
                 pick1: null,
                 pick2: null,
+                discoveredPairs: 0,
                 resetInterval: null,
             }
         },
@@ -106,12 +108,11 @@
                         }
                         else
                         {
+                            ++this.discoveredPairs;
                             this.pick1 = null;
                             this.pick2 = null;
                         }
-                    }
-
-                   
+                    }                   
                 }
             },
             shuffle() {
